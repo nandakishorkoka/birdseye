@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# yolo models 
+*.pt
+
+# Environments
+.env
+venv/
+env/
+# Virtualenv/conda environments
+*.venv
+.venv/
+conda_env/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.mine
+*.swp
+*.bak
+*.swo
+
+# Build artifacts
+dist/
+build/
+*.egg
+*.whl
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3
+
+# Test/coverage reports
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Django specific files
+local_settings.py
+media/
+static/
+
+# Flask specific files
+instance/
+.webassets-cache
+
+# Other common files
+.DS_Store
+Thumbs.db
